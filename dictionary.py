@@ -9,6 +9,5 @@ def convert_to_dictionary(list_1, list_2):
     return dictionary
 
 '''
-
 https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary-in-python
 '''
