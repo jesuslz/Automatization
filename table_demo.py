@@ -1,6 +1,7 @@
 """
 ==========
 Table Demo
+https://matplotlib.org/api/_as_gen/matplotlib.pyplot.table.html
 ==========
 
 Demo of table function to display a table within a plot.
