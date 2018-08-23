@@ -21,4 +21,4 @@ import dictionary
 
 d1 = dictionary.convert_to_dictionary(b, a)
 
-print(d1)
+print(c)
