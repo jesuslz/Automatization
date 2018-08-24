@@ -23,7 +23,9 @@ values = np.arange(0, 2500, 500)
 value_increment = 1000
 
 # Get some pastel shades for the colors
-colors = plt.cm.BuPu(np.linspace(0, 0.5, len(rows)))
+colors = plt.cm.BuPu(np.linspace(0, 1.5, len(rows)))
+#colors = ['r', 'b', 'g', 'r', 'k']
+#print(colors)
 n_rows = len(data)
 
 index = np.arange(len(columns)) + 0.3
@@ -41,7 +43,7 @@ for row in range(n_rows):
 # Reverse colors and text labels to display the last value at the top.
 colors = colors[::-1]
 cell_text.reverse()
-
+print(cell_text)
 # Add a table at the bottom of the axes
 the_table = plt.table(cellText=cell_text,
                       rowLabels=rows,
