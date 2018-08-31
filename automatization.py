@@ -26,6 +26,7 @@ class CreateDataBase(object):
 
         comando = 'CREATE TABLE IF NOT EXISTS ' + tableDataBaseName + '(' + com + ')'
         self.cursor_db.execute(comando)
+        
     
 
 def main():
