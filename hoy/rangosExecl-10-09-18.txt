@@ -1,0 +1,30 @@
+FLOW Operation and support report ASAP 7.0.2 JAMU66%2c WASS133 2018-09-10
+
+
+WASS WEEK
+timeout: A28:A43 16rows
+failed: A1908:A1955 48rows
+completed: A1961:A2003 43rows
+wos host : A2009:A2072 64rows
+----------------------BARCOMG: A2085:A2274 63rows
+
+
+JAMU WEEK
+timeout: A28:A32 5rows
+failed: A465:A493 29rows 
+completed: A499:A529 31rows
+wos host : A535:A574 44rows
+
+WASS_BAR_COMG: A587:A629 14 rows
+
+
+
+
+
+
+
+
+
+304 FAIL:Settings for <ACCOUNT> could not be modified.The error code is 513
+280 FAIL:Settings for NULL could not be modified.The error code	is 513
+3 FAIL:Account <ACCOUNT> could not be created.The error code is	520 
