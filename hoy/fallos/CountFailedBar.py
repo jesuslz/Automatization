@@ -31,14 +31,17 @@ class CountFailedBar():
         clasificar los datos, en un lista se guardaran todos los datos con
         cuenta vacia, y en la otra todos los datos que tienen una cuenta
         asignada'''
-
+        #self.matrix_aux = matrix
         for i in range(len(matrix)):
             if 'NULL' in matrix[i][:]:
-                null_list.append(matrix[i])
-                matrix[i] = None
+                #print('estoy dentro del if')
+                #print(matrix[i])
+                null_list.append(matrix[i][:])
+                #print('null list*************', null_list)
+                #matrix[i] = None
             else:
                 account_list.append(matrix[i])
-                matrix[i] = None
+                #matrix[i] = None
         
         return null_list, account_list
     
