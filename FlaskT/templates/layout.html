@@ -1,0 +1,20 @@
+
+{% extends 'structure.html' %}
+{% block page_content %}
+    <p>
+        En este ejemplo se verá cmo utilizar variables en codigo
+        html enviadas desde Python
+    </p>
+    <h1>Bienvenido {{ name.name1 }} </h1>
+    {% if var %}
+    <p> Este es un entorno de desarrollo para {{entorno1}} </p>
+    {% else %}
+    <p>Este es un entorno de desarrollo para {{entorno2}}</p>
+    {% endif %}
+
+    <ul>
+        {% for i in items %}
+        <li>{{i.text}}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
