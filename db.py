@@ -25,9 +25,9 @@ def read_from_db():
         plt.show()
     #data = np.array(data)
     #print(data[:,0])
-#create_table()
-#data_entry()
-read_from_db()
+create_table()
+data_entry()
+#read_from_db()
 
 '''
 def create_table():
